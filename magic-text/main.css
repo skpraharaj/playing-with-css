@@ -21,10 +21,33 @@
     width: 70vw;
 }
 
+.side .fancy {
+    font-family: "Lobster", cursive;
+
+}
+
+
 #left-side {
-    background-color: blueviolet;
+    background-color: rgb(27, 27, 27);
+    z-index: 2;
 }
 
 #right-side {
-    background-color: #ff0000;
+    background-color: #c50000;
+}
+
+#left-side .title {
+    color: aliceblue;
+}
+
+#left-side .fancy {
+    color: #c50000;
+}
+
+#right-side .title {
+    color: rgb(27, 27, 27);
+}
+
+#right-side .fancy {
+    color: aliceblue;
 }
